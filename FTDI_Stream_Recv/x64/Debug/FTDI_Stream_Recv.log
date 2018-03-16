@@ -1,0 +1,19 @@
+﻿Build started 3/5/2018 5:06:57 PM.
+     1>Project "C:\Users\Gogol\Documents\Visual Studio 2015\Projects\FTDI_Stream_Recv\FTDI_Stream_Recv\FTDI_Stream_Recv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\FTDI_Stream_Recv.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt FTDI_Stream_Recv.cpp
+         FTDI_Stream_Recv.cpp
+     1>c:\users\gogol\documents\visual studio 2015\projects\ftdi_stream_recv\ftdi_stream_recv\ftdi_stream_recv.cpp(64): warning C4309: '=': truncation of constant value
+     1>c:\users\gogol\documents\visual studio 2015\projects\ftdi_stream_recv\ftdi_stream_recv\ftdi_stream_recv.cpp(113): warning C4244: 'initializing': conversion from 'LONGLONG' to 'float', possible loss of data
+     1>c:\users\gogol\documents\visual studio 2015\projects\ftdi_stream_recv\ftdi_stream_recv\ftdi_stream_recv.cpp(115): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\gogol\documents\visual studio 2015\projects\ftdi_stream_recv\ftdi_stream_recv\ftdi_stream_recv.cpp(118): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\gogol\documents\visual studio 2015\projects\ftdi_stream_recv\ftdi_stream_recv\ftdi_stream_recv.cpp(119): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gogol\Documents\Visual Studio 2015\Projects\FTDI_Stream_Recv\x64\Debug\FTDI_Stream_Recv.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc14\lib opencv_world340d.lib ftd2xx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Gogol\Documents\Visual Studio 2015\Projects\FTDI_Stream_Recv\x64\Debug\FTDI_Stream_Recv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gogol\Documents\Visual Studio 2015\Projects\FTDI_Stream_Recv\x64\Debug\FTDI_Stream_Recv.lib" /MACHINE:X64 x64\Debug\FTDI_Stream_Recv.obj
+         x64\Debug\stdafx.obj
+         FTDI_Stream_Recv.vcxproj -> C:\Users\Gogol\Documents\Visual Studio 2015\Projects\FTDI_Stream_Recv\x64\Debug\FTDI_Stream_Recv.exe
+     1>Done Building Project "C:\Users\Gogol\Documents\Visual Studio 2015\Projects\FTDI_Stream_Recv\FTDI_Stream_Recv\FTDI_Stream_Recv.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83

@@ -1,0 +1,24 @@
+﻿Build started 2/21/2018 7:38:32 PM.
+     1>Project "c:\Users\Gogol\documents\visual studio 2015\Projects\FTDI_Stream_Recv\FTDI_Stream_Recv\FTDI_Stream_Recv.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\FTDI_Stream_Recv.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\FTDI_Stream_Recv.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt FTDI_Stream_Recv.cpp
+         FTDI_Stream_Recv.cpp
+     1>FTDI_Stream_Recv.cpp(54): warning C4309: '=': truncation of constant value
+     1>FTDI_Stream_Recv.cpp(90): warning C4244: 'initializing': conversion from 'LONGLONG' to 'float', possible loss of data
+     1>FTDI_Stream_Recv.cpp(92): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>FTDI_Stream_Recv.cpp(95): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>FTDI_Stream_Recv.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\gogol\documents\visual studio 2015\Projects\FTDI_Stream_Recv\Release\FTDI_Stream_Recv.exe" /INCREMENTAL:NO /NOLOGO ftd2xx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\gogol\documents\visual studio 2015\Projects\FTDI_Stream_Recv\Release\FTDI_Stream_Recv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\gogol\documents\visual studio 2015\Projects\FTDI_Stream_Recv\Release\FTDI_Stream_Recv.lib" /MACHINE:X86 /SAFESEH Release\FTDI_Stream_Recv.obj
+         Release\stdafx.obj
+         Generating code
+         All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         FTDI_Stream_Recv.vcxproj -> c:\users\gogol\documents\visual studio 2015\Projects\FTDI_Stream_Recv\Release\FTDI_Stream_Recv.exe
+     1>Done Building Project "c:\Users\Gogol\documents\visual studio 2015\Projects\FTDI_Stream_Recv\FTDI_Stream_Recv\FTDI_Stream_Recv.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.75
